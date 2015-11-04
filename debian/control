@@ -1,0 +1,13 @@
+Source: wasta-resources-png
+Section: doc
+Priority: extra
+Maintainer: Rik Shaw <rikshaw76@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+
+Package: wasta-resources-png
+Architecture: all
+Depends: wasta-resources, ${shlibs:Depends}, ${misc:Depends}
+Description: wasta-Linux Indic Resources
+ wasta-Linux PNG reference materials / documentation / resources.  Items
+ installed to /usr/share/wasta-resources.
